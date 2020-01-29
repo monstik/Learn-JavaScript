@@ -6,6 +6,8 @@ let srcs = [
     'https://www.mirrorplacement.com/assets/home/select-js-df288d39dd9d848c8672a51f122e70fe.png',
 ];
 
-slider.start('img','previus-button', 'next-button', srcs);
+let slider1 = SliderFactory.creteNewSlider();
+let slider2 = SliderFactory.creteNewSlider();
 
-
+slider1.start('main-slider1','img-slider','previus-button','next-button', srcs);
+slider2.start('main-slider2','img-slider','previus-button','next-button', srcs);
